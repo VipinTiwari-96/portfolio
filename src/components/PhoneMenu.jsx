@@ -12,7 +12,7 @@ const PhoneMenu=()=>{
         Home
      </Link>
      </li>
-           <li className="border p-4">
+           {/* <li className="border p-4">
         <Link 
             to="About"  
             activeClass="active"
@@ -21,7 +21,7 @@ const PhoneMenu=()=>{
             className="cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500  duration-400">
         About
      </Link>
-     </li>
+     </li> */}
            <li className="border p-4">
         <Link 
             to="Projects"  
