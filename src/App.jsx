@@ -14,7 +14,7 @@ function App() {
  {/* <div className="bg-[url('https://i.ibb.co/ZVxktMz/nasa-Q1p7bh3-SHj8-unsplash.jpg')] bg-no-repeat bg-cover px-2"> */}
       <Header />
        {/* <About /> */}
-       <div className=" pt-16 px-8">
+       <div className=" pt-16 px-2">
       <Technology />
       <Projects  />
       <ContactMe />

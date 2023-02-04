@@ -20,7 +20,7 @@ const ContactMe = () => {
       </div>
      
      <div className='flex justify-around '>
-      <FaLinkedin className="text-3xl md:text-5xl"/> <div className='grow text-center  md:text-xl'><a href="https://www.linkedin.com/in/tiwari-vipin/" target="_blank"> linkedin.com/in/tiwari-vipin/</a></div>
+      <FaLinkedin className="text-3xl md:text-5xl"/> <div className='grow text-center  md:text-xl'><a href="https://www.linkedin.com/in/tiwari-vipin/" target="_blank" className='hover:underline'> linkedin.com/in/tiwari-vipin/</a></div>
      </div>
     
        {/* <BiMessageRoundedDots className="text-6xl md:text-7xl text-blue-500"/>
