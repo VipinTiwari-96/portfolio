@@ -32,8 +32,11 @@ const Header=()=>{
 
       <div className="text-center sm:w-7/12 mx-auto px-6">
         <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold tracking-wide">Hey! I'm <span className="text-white"> Vipin Tiwari,<br></br> React Developer</span></h2>
+    
         <p className="md:text-lg lg:text-2xl my-8 ">   
-            With a passion for technology and a focus on continuous learning, I am a <span className="font-semibold"> software engineer</span> with expertise in <span className="font-semibold text-white">JavaScript</span> and a willingness to explore new technologies. I am a proactive <span className="font-semibold text-white">problem-solver</span> and enjoy working on complex projects that require me to think creatively and outside the box.
+           By going through an intense  <span className="font-semibold text-white">web development program </span>of 6 months run by CodeYogi, I’m a software engineer with good command in <span className="font-semibold text-white">HTML, CSS and JavaScript </span>along with their useful and on-demand libraries like react and tailwind.
+And also, I’m willingness to explore new technologies so it would be easy to make a complex, responsive and interactive  website in an easy and understanding way.
+
         </p>
         <button className="bg-gray-200 text-gray-600 font-bold px-3 py-1 sm:px-4 sm:py-2 rounded sm:text-lg hover:bg-white
         duration-200 ">Download Resume</button>
@@ -43,3 +46,4 @@ const Header=()=>{
 }
 
 export default Header;
+
