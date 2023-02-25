@@ -1,4 +1,3 @@
-import {BsGithub} from "react-icons/bs";
 
 const Projects=()=>{
     return(<>
@@ -37,6 +36,15 @@ const Projects=()=>{
             className="h-44 border border-gray-300 rounded-md hover:drop-shadow-xl hover:shadow-lg duration-500   "/>
         </a>
            <a href="https://github.com/VipinTiwari-96/tic-tac-toe" target="_blank" className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
+    </div>
+
+      <div className="bg-white px-6 py-4 rounded  drop-shadow-md flex flex-col items-center gap-2">
+        <h4 className="text-xl md:text-xl font-bold text-gray-900">Tip-calculator</h4>
+        <a href="https://vipin-tip-calculator.netlify.app/" alt="tip-calculator" target="_blank">
+            <img src="https://i.ibb.co/vqY9PQF/Screenshot-37.png" 
+            className="h-44 border border-gray-300 rounded-md hover:drop-shadow-xl hover:shadow-lg duration-500   "/>
+        </a>
+           <a href="https://github.com/VipinTiwari-96/tip_calculator" target="_blank" className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
     </div>
 
 </div>

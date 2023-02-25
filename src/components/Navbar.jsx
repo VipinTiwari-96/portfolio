@@ -14,7 +14,8 @@ const Navbar=()=>{
    const hideMenuHandler=()=>{
     setIsMenu(false)
    }
-console.log(isMenu);
+    
+  
     return(<>
     <div className="bg-white h-full text-sm lg:text-base font-bold text-gray-600 flex justify-between items-center py-2 px-6 sticky top-0 z-10">
       <div className="flex items-center gap-4 ">
@@ -73,8 +74,8 @@ console.log(isMenu);
         Contact Me
      </Link>
      </li>
-     
-    </ul>
+</ul>
+
       {isMenu ? <ImCross onClick={hideMenuHandler} className = "md:hidden font-light text-xl"/> :  <BiMenu className="md:hidden text-3xl " onClick={showMenuHandler}/>}
    {isMenu &&< PhoneMenu/>}
 

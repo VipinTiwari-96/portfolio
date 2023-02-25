@@ -7,12 +7,12 @@ import {FaReact} from 'react-icons/fa';
 
 const Technology=()=>{
     // max-w-sm sm:max-w-xl
-    return(<div className="p-4 pb-12 bg-gray-200 rounded-md max-w-5xl mx-auto ">
+    return(<div id="Technology" className="p-4 pb-12 bg-gray-200 rounded-md max-w-5xl mx-auto ">
     <h4 className="border border-cyan-500 rounded-md max-w-max mx-auto text-center text-2xl font-bold  px-2">
      Niche technologies</h4>
 
 <div className="  grid sm:grid-cols-2 gap-8 my-8">
-   <div id="Technology" className="grid grid-cols-2 sm:grid-cols-3  justify-items-center gap-y-8 ">
+   <div  className="grid grid-cols-2 sm:grid-cols-3  justify-items-center gap-y-8 ">
 
       <ImHtmlFive2 className="text-6xl md:text-7xl"/>
     
