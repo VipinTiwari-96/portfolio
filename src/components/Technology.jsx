@@ -14,19 +14,19 @@ const Technology=()=>{
 <div className="  grid sm:grid-cols-2 gap-8 my-8">
    <div  className="grid grid-cols-2 sm:grid-cols-3  justify-items-center gap-y-8 ">
 
-      <ImHtmlFive2 className="text-6xl md:text-7xl"/>
+      <ImHtmlFive2 className="text-6xl md:text-7xl" title="HTML"/>
     
-       <FaCss3Alt className="text-6xl md:text-7xl text-blue-500"/>
+       <FaCss3Alt className="text-6xl md:text-7xl text-blue-500" title="CSS"/>
 
-      <SiJavascript className="text-6xl md:text-7xl text-yellow-500"/>
+      <SiJavascript className="text-6xl md:text-7xl text-yellow-500" title="Java Script"/>
    
-      <SiTypescript className="text-6xl md:text-7xl text-blue-500"/>
+      <SiTypescript className="text-6xl md:text-7xl text-blue-500" title="Type Script"/>
 
-      <FaReact className="text-6xl md:text-7xl text-sky-500"/>
+      <FaReact className="text-6xl md:text-7xl text-sky-500" title="React"/>
 
-      <SiTailwindcss className="text-6xl md:text-7xl text-green-600"/>
+      <SiTailwindcss className="text-6xl md:text-7xl text-green-600" title="Tailwind CSS"/>
 
-      <SiRedux className="text-6xl md:text-7xl text-violet-600"/>
+      <SiRedux className="text-6xl md:text-7xl text-violet-600" title="Redux"/>
 </div>
   <div className=" grid grid-cols-3 gap-4">
      <span className="bg-white rounded flex items-center justify-center text-gray-500 font-bold">HTML</span>
