@@ -29,7 +29,7 @@ const Navbar=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className="cursor-pointer hover:text-cyan-500  duration-400">
+            className={"cursor-pointer hover:text-cyan-500  duration-400 " }>
         Home
      </Link>
      </li>
@@ -77,7 +77,7 @@ const Navbar=()=>{
 </ul>
 
       {isMenu ? <ImCross onClick={hideMenuHandler} className = "md:hidden font-light text-xl"/> :  <BiMenu className="md:hidden text-3xl " onClick={showMenuHandler}/>}
-   {isMenu &&< PhoneMenu/>}
+   {isMenu &&< PhoneMenu hideMenuHandler={hideMenuHandler}/>}
 
 </div>
     </>);

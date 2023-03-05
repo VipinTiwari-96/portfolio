@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const PhoneMenu=()=>{
+const PhoneMenu=({hideMenuHandler})=>{
     return(<ul className="md:hidden w-full text-right bg-white  absolute top-24 right-0">
           <li className="border p-4">
         <Link 
@@ -8,7 +8,8 @@ const PhoneMenu=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className=" cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500  duration-400">
+            onClick={hideMenuHandler}
+            className=" cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500 duration-400">
         Home
      </Link>
      </li>
@@ -28,6 +29,7 @@ const PhoneMenu=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
+             onClick={hideMenuHandler}
             className="cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500  duration-400">
         Projects
      </Link>
@@ -38,6 +40,7 @@ const PhoneMenu=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
+             onClick={hideMenuHandler}
             className="cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500  duration-400">
         Technology
      </Link>
@@ -49,6 +52,7 @@ const PhoneMenu=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
+             onClick={hideMenuHandler}
             className="cursor-pointer text-base font-medium text-gray-600 hover:text-cyan-500  duration-400">
         Contact Me
      </Link>
