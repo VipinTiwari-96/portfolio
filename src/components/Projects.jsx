@@ -1,7 +1,7 @@
 
 const Projects=()=>{
     return(<>
-     <div id="Projects" className="bg-gray-200 rounded-md max-w-5xl mt-28 mx-auto p-4">
+     <div id="Projects" className="bg-gray-200 rounded-md max-w-7xl mt-28 mx-auto p-4">
          <h4 className=" border border-cyan-500 rounded-md max-w-max mx-auto text-center text-2xl font-bold md:font-bold  px-2">Projects</h4>
 
   
@@ -10,7 +10,7 @@ const Projects=()=>{
       <div className="flex flex-col sm:flex-row gap-4"> 
         <div className="sm:w-1/2 ">
           <a href="https://assignment-17-vipin9634.codeyogi-batch-2.repl.co/" alt="e-com." target="_blank">
-            <img src="https://i.ibb.co/mvTfHJg/Screenshot-43.png" className="rounded-md hover:scale-100 duration-500	hover:border hover:border-cyan-500" title="Click to see Project"/></a>
+            <img src="https://i.ibb.co/mvTfHJg/Screenshot-43.png" className="rounded-md 	hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/></a>
         </div>
             <p className="sm:w-1/2 text-sm sm:text-base tracking-wide	font-medium	text-gray-700">One of the small projects of my early journey of learning coding. Simply built on raw javascript with some calculative logic. Sorry for the styling as I was on my initial phase of learning.&#128517;  </p>
     </div>
@@ -21,7 +21,7 @@ const Projects=()=>{
     <div className="flex flex-col sm:flex-row gap-4">
       <div className="sm:w-1/2 text-center">
         <a href="https://yestodo.netlify.app/" alt="e-com." target="_blank">
-          <img src="https://i.ibb.co/ZX214mn/Screenshot-53.png" className="rounded-md hover:scale-100 duration-500	hover:border hover:border-cyan-500" title="Click to see Project"/>
+          <img src="https://i.ibb.co/ZX214mn/Screenshot-53.png" className="rounded-md	hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/>
           </a>
          <a href="https://github.com/VipinTiwari-96/tic-tac-toe" target="_blank" 
          className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
@@ -35,7 +35,7 @@ const Projects=()=>{
     <div  className="flex flex-col sm:flex-row gap-4">
       <div className="sm:w-1/2 text-center">
         <a href="https://my-easykart.netlify.app/" alt="e-com." target="_blank">
-          <img src="https://i.ibb.co/KqfzdJB/Screenshot-55.png" className="rounded-md hover:scale-100 duration-500	hover:border hover:border-cyan-500" title="Click to see Project"/></a>
+          <img src="https://i.ibb.co/KqfzdJB/Screenshot-55.png" className="rounded-md hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/></a>
          <a href="https://github.com/VipinTiwari-96/tic-tac-toe" target="_blank" 
          className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
       </div>
@@ -49,7 +49,7 @@ const Projects=()=>{
   <div className="flex flex-col sm:flex-row gap-4">
     <div className="sm:w-1/2 text-center">
         <a href="https://xpense-xtracker.netlify.app/" alt="Expense-Tracker" target="_blank">
-          <img src="https://i.ibb.co/JF62BFG/Screenshot-42.png" className="rounded-md hover:scale-100 duration-500	hover:border hover:border-cyan-500" title="Click to see Project"/></a>
+          <img src="https://i.ibb.co/JF62BFG/Screenshot-42.png" className="rounded-md hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/></a>
          <a href="https://github.com/VipinTiwari-96/tic-tac-toe" target="_blank"
           className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
       </div>
@@ -63,7 +63,7 @@ const Projects=()=>{
       <div className="sm:w-1/2 text-center">
         <a href="https://play-tic-tac.netlify.app/" alt="tic-tac" target="_blank">
             <img src="https://i.ibb.co/Hp4S9cq/Screenshot-34.png" 
-            className="rounded-md hover:scale-100 duration-500 hover:border hover:border-cyan-500" title="Click to see Project"/>
+            className="rounded-md hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/>
         </a>
            <a href="https://github.com/VipinTiwari-96/tic-tac-toe" target="_blank" 
            className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline">Code</a>
@@ -81,7 +81,7 @@ const Projects=()=>{
         <div className="sm:w-1/2 text-center">
           <a href="https://vipin-tip-calculator.netlify.app/" alt="tip-calculator" target="_blank">
               <img src="https://i.ibb.co/vqY9PQF/Screenshot-37.png" 
-              className="rounded-md hover:scale-100 duration-500	hover:border hover:border-cyan-500" title="Click to see Project"/>
+              className="rounded-md hover:border hover:border-cyan-500  duration-500" title="Click to see Project"/>
           </a>
              <a href="https://github.com/VipinTiwari-96/tip_calculator" target="_blank"
              className="md:text-lg font-medium text-gray-500 hover:text-gray-700 hover:underline ">Code</a>

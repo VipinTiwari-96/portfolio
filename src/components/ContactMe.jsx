@@ -5,7 +5,7 @@ import {FaLinkedin} from "react-icons/fa";
 
 const ContactMe = () => {
   return (
-    <div id="ContactMe" className="bg-gray-200 rounded-md max-w-2xl mx-auto mt-28 p-4">
+    <div id="ContactMe" className="bg-gray-200 rounded-md max-w-4xl mx-auto mt-28 p-4">
     <h4 className="border border-cyan-500 rounded-md max-w-max mx-auto text-center text-2xl font-bold md:font-bold px-2">
     Contact Me</h4>
 
