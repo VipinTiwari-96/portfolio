@@ -6,16 +6,17 @@ import {ImCross} from "react-icons/im";
 
 const Navbar=()=>{
    const [ isMenu, setIsMenu ] = useState(false);
+   const [navSelect, setNavSelect]= useState('/');
 
+   
    const showMenuHandler=()=>{
      setIsMenu(true);
    }
 
    const hideMenuHandler=()=>{
-    setIsMenu(false)
+    setIsMenu(false);
    }
     
-  
     return(<>
     <div className="bg-white h-full text-sm lg:text-base font-bold text-gray-600 flex justify-between items-center py-2 px-6 sticky top-0 z-10">
       <div className="flex items-center gap-4 ">
@@ -29,7 +30,7 @@ const Navbar=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className={"cursor-pointer hover:text-cyan-500  duration-400 " }>
+            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='/'? 'text-cyan-500': 'text-gray-600'}`} onClick={()=>setNavSelect("/")}>
         Home
      </Link>
      </li>
@@ -49,7 +50,7 @@ const Navbar=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className="cursor-pointer hover:text-cyan-300  duration-400">
+            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect== 'Projects'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Projects")}>
         Projects
      </Link>
      </li>
@@ -59,7 +60,7 @@ const Navbar=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className="cursor-pointer hover:text-cyan-400  duration-400">
+            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='Technology'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Technology")}>
         Technology
      </Link>
      </li>
@@ -70,14 +71,14 @@ const Navbar=()=>{
             activeClass="active"
             spy={true} smooth={true} 
             offset={-70} duration={500}
-            className="cursor-pointer hover:text-cyan-500  duration-400">
+            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='ContactMe'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("ContactMe")}>
         Contact Me
      </Link>
      </li>
 </ul>
 
       {isMenu ? <ImCross onClick={hideMenuHandler} className = "md:hidden font-light text-xl"/> :  <BiMenu className="md:hidden text-3xl " onClick={showMenuHandler}/>}
-   {isMenu &&< PhoneMenu hideMenuHandler={hideMenuHandler}/>}
+   {isMenu &&< PhoneMenu hideMenuHandler={hideMenuHandler} navSelect={navSelect} setNavSelect={setNavSelect}/>}
 
 </div>
     </>);
