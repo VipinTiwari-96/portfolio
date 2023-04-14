@@ -28,7 +28,7 @@ const Navbar=()=>{
         <Link 
             to="/"  
             activeClass="active"
-            spy={true} smooth={true} 
+            smooth={true} 
             offset={-70} duration={500}
             className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='/'? 'text-cyan-500': 'text-gray-600'}`} onClick={()=>setNavSelect("/")}>
         Home
@@ -44,16 +44,7 @@ const Navbar=()=>{
         About
      </Link>
      </li> */}
-           <li>
-        <Link 
-            to="Projects"  
-            activeClass="active"
-            spy={true} smooth={true} 
-            offset={-70} duration={500}
-            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect== 'Projects'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Projects")}>
-        Projects
-     </Link>
-     </li>
+          
            <li>
         <Link 
             to="Technology"  
@@ -65,6 +56,17 @@ const Navbar=()=>{
      </Link>
      </li>
 
+     <li>
+        <Link 
+            to="Projects"  
+            activeClass="active"
+            spy={true} smooth={true} 
+            offset={-70} duration={500}
+            className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect== 'Projects'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Projects")}>
+        Projects
+     </Link>
+     </li>
+     
   <li>
         <Link 
             to="ContactMe"  
