@@ -26,19 +26,7 @@ const PhoneMenu=({hideMenuHandler, navSelect, setNavSelect})=>{
         About
      </Link>
      </li> */}
-           <li className="border p-4">
-        <Link 
-            to="Projects"  
-            activeClass="active"
-            spy={true} smooth={true} 
-            offset={-70} duration={500}
-            onClick={()=>{hideMenuHandler();
-                setNavSelect('Projects')}}
-                className= {`cursor-pointer hover:text-cyan-500  duration-400
-                 ${navSelect=='Projects'? 'text-cyan-500': 'text-gray-600'}`}>
-        Projects
-     </Link>
-     </li>
+    
            <li className="border p-4">
         <Link 
             to="Technology"  
@@ -53,6 +41,21 @@ const PhoneMenu=({hideMenuHandler, navSelect, setNavSelect})=>{
      </Link>
      </li>
 
+     <li className="border p-4">
+        <Link 
+            to="Projects"  
+            activeClass="active"
+            spy={true} smooth={true} 
+            offset={-70} duration={500}
+            onClick={()=>{hideMenuHandler();
+                setNavSelect('Projects')}}
+                className= {`cursor-pointer hover:text-cyan-500  duration-400
+                 ${navSelect=='Projects'? 'text-cyan-500': 'text-gray-600'}`}>
+        Projects
+     </Link>
+     </li>
+
+     
      <li className="border p-4">
         <Link 
             to="ContactMe"  
