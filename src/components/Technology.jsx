@@ -8,7 +8,7 @@ import {FaReact} from 'react-icons/fa';
 const Technology=()=>{
     // max-w-sm sm:max-w-xl
     return(
-    <div id="Technology" className="p-4 pb-12 bg-gray-200 rounded-md max-w-7xl mx-auto ">
+    <div id="Technology" className="p-4 pb-12 bg-gray-200 rounded-md max-w-7xl mx-auto py-12 my-20 lg:my-14">
     <h4 className="border border-cyan-500 rounded-md max-w-max mx-auto text-center text-2xl font-bold  px-2">
      Niche technologies</h4>
 

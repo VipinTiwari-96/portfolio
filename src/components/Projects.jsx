@@ -1,11 +1,11 @@
 
 const Projects=()=>{
     return(<>
-     <div id="Projects" className="bg-gray-200 rounded-md max-w-7xl mt-28 mx-auto p-4">
+     <div name="Projects" className="bg-gray-200 rounded-md max-w-7xl py-12 mx-auto p-4">
          <h4 className=" border border-cyan-500 rounded-md max-w-max mx-auto text-center text-2xl font-bold md:font-bold  px-2">Projects</h4>
 
   
-  <div className="bg-white px-2 pb-4 rounded-md ">
+  <div className="bg-white p-4 rounded-md  mt-4">
         <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">Unit Converter</h4>
       <div className="flex flex-col sm:flex-row gap-4"> 
         <div className="sm:w-1/2 ">
@@ -16,7 +16,7 @@ const Projects=()=>{
     </div>
 </div>
 
-<div className=" bg-white px-2 pb-4 rounded-md">
+<div className=" bg-white p-4  rounded-md mt-4">
         <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">Todo App</h4>
     <div className="flex flex-col sm:flex-row gap-4">
       <div className="sm:w-1/2 text-center">
@@ -30,7 +30,7 @@ const Projects=()=>{
     </div>
 </div>
 
-<div className=" bg-white px-2 pb-4 rounded-md">
+<div className=" bg-white p-4 rounded-md  mt-4">
         <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">E-commerce site</h4>
     <div  className="flex flex-col sm:flex-row gap-4">
       <div className="sm:w-1/2 text-center">
@@ -44,7 +44,7 @@ const Projects=()=>{
     </div>
 </div>
 
-<div className=" bg-white px-2 pb-4 rounded-md">
+<div className=" bg-white p-4 rounded-md  mt-4">
         <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">Expense-Tracker</h4>
   <div className="flex flex-col sm:flex-row gap-4">
     <div className="sm:w-1/2 text-center">
@@ -57,7 +57,7 @@ const Projects=()=>{
     </div>
 </div>
 
-<div className=" bg-white px-2 pb-4 rounded-md">
+<div className=" bg-white p-4  rounded-md  mt-4">
         <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">Tic-tic-toe</h4>
     <div  className="flex flex-col sm:flex-row gap-4">
       <div className="sm:w-1/2 text-center">
@@ -75,7 +75,7 @@ const Projects=()=>{
     </div>
 </div>
 
-<div className=" bg-white px-2 pb-4 rounded-md">
+<div className=" bg-white p-4  rounded-md mt-4" >
           <h4 className="text-xl md:text-xl font-bold text-gray-900 text-center my-4">Tip-calculator</h4>
       <div className="flex flex-col sm:flex-row gap-4">
         <div className="sm:w-1/2 text-center">
