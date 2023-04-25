@@ -29,7 +29,7 @@ const Navbar=()=>{
             to="/"  
             activeClass="active"
             smooth={true} 
-            offset={-70} duration={500}
+            offset={-70 } duration={500}
             className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='/'? 'text-cyan-500': 'text-gray-600'}`} onClick={()=>setNavSelect("/")}>
         Home
      </Link>
@@ -50,7 +50,7 @@ const Navbar=()=>{
             to="Technology"  
             activeClass="active"
             spy={true} smooth={true} 
-            offset={-70} duration={500}
+            offset={-150} duration={500}
             className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='Technology'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Technology")}>
         Technology
      </Link>
@@ -61,7 +61,7 @@ const Navbar=()=>{
             to="Projects"  
             activeClass="active"
             spy={true} smooth={true} 
-            offset={-70} duration={500}
+            offset={-150} duration={500}
             className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect== 'Projects'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("Projects")}>
         Projects
      </Link>
@@ -72,7 +72,7 @@ const Navbar=()=>{
             to="ContactMe"  
             activeClass="active"
             spy={true} smooth={true} 
-            offset={-70} duration={500}
+            offset={-150} duration={500}
             className= {`cursor-pointer hover:text-cyan-500  duration-400 ${navSelect=='ContactMe'?'text-cyan-500':'text-gray-600'}`} onClick={()=>setNavSelect("ContactMe")}>
         Contact Me
      </Link>
